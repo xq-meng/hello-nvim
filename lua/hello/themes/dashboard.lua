@@ -53,7 +53,7 @@ end
 local buttons = {
     type = "group",
     val = {
-        button("e", "  > New file" , ":ene <BAR> startinsert <CR>"),
+        button("n", "  > New file" , ":ene <BAR> startinsert <CR>"),
         button("t", "  > File tree", ":NvimTreeToggle<CR>"),
         button("f", "  > Find file", ":Telescope find_files<CR>"),
         button("r", "  > Recent"   , ":Telescope oldfiles<CR>"),
