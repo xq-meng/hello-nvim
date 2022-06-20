@@ -54,7 +54,7 @@ local buttons = {
     type = "group",
     val = {
         button("n", "  > New file" , ":ene <BAR> startinsert <CR>"),
-        button("t", "  > File tree", ":NvimTreeToggle<CR>"),
+        button("g", "  > File tree", ":NvimTreeToggle<CR>"),
         button("f", "  > Find file", ":Telescope find_files<CR>"),
         button("r", "  > Recent"   , ":Telescope oldfiles<CR>"),
         button("s", "  > Settings" , ":e $MYVIMRC | :cd %:p:h | split . | wincmd k | pwd<CR>"),
