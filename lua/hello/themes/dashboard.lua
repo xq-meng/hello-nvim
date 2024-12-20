@@ -53,12 +53,12 @@ end
 local buttons = {
     type = "group",
     val = {
-        button("n", "  > New file" , ":ene <BAR> startinsert <CR>"),
-        button("g", "  > File tree", ":NvimTreeToggle<CR>"),
-        button("f", "  > Find file", ":Telescope find_files<CR>"),
-        button("r", "  > Recent"   , ":Telescope oldfiles<CR>"),
-        button("s", "  > Settings" , ":e $MYVIMRC | :cd %:p:h | split . | wincmd k | pwd<CR>"),
-        button("q", "  > Quit NVIM", ":qa<CR>"),
+        button("n", "> New file" , ":ene <BAR> startinsert <CR>"),
+        button("g", "> File tree", ":NvimTreeToggle<CR>"),
+        button("f", "> Find file", ":Telescope find_files<CR>"),
+        button("r", "> Recent"   , ":Telescope oldfiles<CR>"),
+        button("s", "> Settings" , ":e $MYVIMRC | :cd %:p:h | split . | wincmd k | pwd<CR>"),
+        button("q", "> Quit NVIM", ":qa<CR>"),
     },
     opts = {
         spacing = 1,
